@@ -1,0 +1,232 @@
+$primary-color: rgba(245, 247, 250, 1);
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px 36px 20px 36px;
+}
+
+.header-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: rgba(52, 60, 106, 1);
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.search-container {
+    max-width: 255px;
+    padding: 15px 45px 15px 15px;
+    border-radius: 40px;
+    display: flex;
+    background-color: $primary-color;
+    align-items: center;
+    margin-right: 35px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.search-input {
+    max-width: 152px;
+    background-color: $primary-color;
+    border: none;
+    font-size: 15px;
+    color: rgba(139, 163, 203, 1);
+}
+
+.search-input::placeholder {
+    color: rgba(139, 163, 203, 1);
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.icon-container {
+    display: flex;
+    margin-right: 0px;
+}
+
+.icon_background {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+.user-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.mobile{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 25px 15px 25px;
+    }
+
+    .mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        
+        .mobile-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 10px 0px;
+
+            .menu-icon {
+                width: 14px;
+                height: 18px;
+            }
+
+            .user-photo {
+                width: 35px;
+                height: 35px;
+            }
+        }
+
+        .header-title {
+            font-size: 20px;
+            margin: 0;
+            font-weight: 600;
+            color: rgba(52, 60, 106, 1);
+        }
+
+        .search-container {
+            max-width: 100%;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            margin-right: 0px;
+        }
+
+        .search-icon {
+            width: 15px;
+            height: 15px;
+            margin-right: 10px;
+        }
+
+        .search-input {
+            flex: 1;
+            background-color: $primary-color;
+            border: none;
+            font-size: 13px;
+            color: rgba(139, 163, 203, 1);
+        }
+
+        .icon-container {
+            display: none;
+        }
+
+        .user-photo {
+            margin-top: 10px;
+        }
+    }
+
+    .desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px)  {
+    .header {
+        padding: 15px 25px 15px 25px;
+    }
+
+    .mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        
+        .mobile-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 10px 0px;
+
+            .menu-icon {
+                width: 14px;
+                height: 18px;
+            }
+
+            .user-photo {
+                width: 35px;
+                height: 35px;
+            }
+        }
+
+        .header-title {
+            font-size: 20px;
+            margin: 0;
+            font-weight: 600;
+            color: rgba(52, 60, 106, 1);
+        }
+
+        .search-container {
+            max-width: 100%;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            margin-right: 0px;
+        }
+
+        .search-icon {
+            width: 15px;
+            height: 15px;
+            margin-right: 10px;
+        }
+
+        .search-input {
+            flex: 1;
+            background-color: $primary-color;
+            border: none;
+            font-size: 13px;
+            color: rgba(139, 163, 203, 1);
+        }
+
+        .icon-container {
+            display: none;
+        }
+
+        .user-photo {
+            margin-top: 10px;
+        }
+    }
+
+    .desktop {
+        display: none;
+    }
+}
