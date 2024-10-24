@@ -25,6 +25,8 @@
     }
 
     .check-icon {
+        width: 14px;
+        height: 8px;
         position: absolute;
         right: 25px;
         top: 50%; 
@@ -135,14 +137,15 @@
 
                 input {
                     width: 100%;
-                    padding: 15px 20px 15px 20px;
-                    border-radius: 15px;
+                    padding: 12px 14px 12px 14px;
+                    border-radius: 10px;
                     border: 1px solid rgba(223, 234, 242, 1);
                     font-size: 15px;
                     color: rgba(113, 142, 191, 1);
 
                     &::placeholder {
                         color: rgba(113, 142, 191, 1);
+                        font-family: 'Inter', sans-serif;
                     }
 
                     &:focus {
@@ -201,7 +204,7 @@
             margin-bottom: 0px;
             
             .tab {
-                padding: 10px 10px 7px 10px;
+                padding: 12px 12px 10px 10px;
                 margin-right: 15px;
                 margin-bottom: 0;
                 font-size: 13px;
@@ -212,18 +215,46 @@
             }
         }
     
+        
         .profile-form {
-            margin-top: 25px;
+            margin-top: 21px;
             flex-direction: column;
             align-items: center;
             width: 100%;
             
             .profile-avatar {
                 margin-right: 0;
-                margin-bottom: 20px;
+                margin-bottom: 12px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+
+                .img_avatar {
+                    height: 170px;
+                    width: 170px;
+                    border-radius: 50%;
+                    margin-right: 5px;
+                }
+
+                .edit-avatar-btn {
+                    position: absolute;
+                    top: 111px;
+                    right: -12px;
+                    background-color: rgba(24, 20, 243, 1);
+                    color: white;
+                    border: none;
+                    border-radius: 50%;
+                    width: 38.5px;
+                    height: 38.5px;
+                    cursor: pointer;
+
+                    img{
+                        margin-top: 2px;
+                        margin-left: 2px;
+                        width: 18.5px;
+                        height: 18.5px;
+                    }
+                }
             }
     
             .profile-details {
@@ -231,18 +262,18 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
-                margin-top: 20px;
+                margin-top: 0px;
     
                 .form-group {
                     width: 100%;
-                    margin: 10px;
+                    margin: 10px 10px 7px 10px;
                     display: flex;
                     flex-direction: column;
     
                     label {
                         display: block;
                         font-size: 13px;
-                        margin-bottom: 5px;
+                        margin-bottom: 8px;
                     }
 
                     input{
@@ -253,6 +284,9 @@
                 .save-btn {
                     width: 100%;
                     margin: 10px;
+                    padding: 12px;
+                    border-radius: 10px;
+                    font-size: 15px;
                 }
             }
         }

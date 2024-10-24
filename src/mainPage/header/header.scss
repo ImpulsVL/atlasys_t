@@ -20,6 +20,7 @@ $primary-color: rgba(245, 247, 250, 1);
 }
 
 .search-container {
+    font-family: 'Inter', sans-serif;
     max-width: 255px;
     padding: 15px 45px 15px 15px;
     border-radius: 40px;
@@ -87,7 +88,7 @@ $primary-color: rgba(245, 247, 250, 1);
 
 @media (max-width: 768px) {
     .header {
-        padding: 15px 25px 15px 25px;
+        padding: 10px 25px 20px 25px;
     }
 
     .mobile {
@@ -101,11 +102,11 @@ $primary-color: rgba(245, 247, 250, 1);
             justify-content: space-between;
             align-items: center;
             width: 100%;
-            padding: 10px 0px;
+            padding: 15px 0px 12px 0px;
 
             .menu-icon {
-                width: 14px;
-                height: 18px;
+                width: 16px;
+                height: 20px;
             }
 
             .user-photo {
@@ -124,8 +125,8 @@ $primary-color: rgba(245, 247, 250, 1);
         .search-container {
             max-width: 100%;
             width: 100%;
-            padding: 10px;
-            margin-top: 10px;
+            padding: 12px;
+            margin-top: 8px;
             display: flex;
             align-items: center;
             margin-right: 0px;
@@ -150,7 +151,7 @@ $primary-color: rgba(245, 247, 250, 1);
         }
 
         .user-photo {
-            margin-top: 10px;
+            margin-top: 0px;
         }
     }
 
@@ -161,7 +162,7 @@ $primary-color: rgba(245, 247, 250, 1);
 
 @media (min-width: 769px) and (max-width: 1024px)  {
     .header {
-        padding: 15px 25px 15px 25px;
+        padding: 15px 25px 20px 25px;
     }
 
     .mobile {

@@ -20,7 +20,7 @@ function Plate() {
                     <div className="profile-form">
                         <div className="profile-avatar">
                             <img className='img_avatar' src={AvatarPng} alt="Avatar" />
-                            <button className="edit-avatar-btn"><img src={PenSvg} /></button>
+                            <button className="edit-avatar-btn"><img className='pen_svg' src={PenSvg} /></button>
                         </div>
 
                         <form className="profile-details">
