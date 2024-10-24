@@ -23,7 +23,7 @@ function SideBar() {
 
                 <div className="sidebar-item_main">
                     <div className="sidebar-content">
-                        <img className="img_pavlov" src={SpecialSvg}></img>
+                        <img className="img_pavlov2" src={SpecialSvg}></img>
                         <span className="sidebar-text">BankDash.</span>
                     </div>
                 </div>
@@ -73,7 +73,7 @@ function SideBar() {
                         <a href="#">
                             <div className="sidebar-content">
                                 <div className="sidebar-icon">
-                                    <img className="img_pavlov" src={CreditSvg}></img>
+                                    <img className="img_pavlov3" src={CreditSvg}></img>
                                 </div>
                                 <span className="sidebar-text">Credit Cards</span>
                             </div>

@@ -18,6 +18,21 @@
     background-color: rgba(230, 239, 245, 1);
 }
 
+.img_pavlov{
+    width: 25px;
+    height: 25px;
+}
+
+.img_pavlov2{
+    width: 36px;
+    height: 36px;
+}
+
+.img_pavlov3{
+    width: 26px;
+    height: 26px;
+}
+
 .sidebar-item {
     width: 70%;
     margin: 5px 0;
@@ -28,10 +43,10 @@
     cursor: pointer;
 
     &.active {
-        color: blue;
+        color: rgba(24, 20, 243, 1);
 
         .sidebar-text {
-            color: blue;
+            color: rgba(24, 20, 243, 1);
         }
 
         &::before {
@@ -39,9 +54,9 @@
             position: absolute;
             left: -45px;
             top: 0;
-            height: 100%;
-            width: 5px;
-            background-color: blue;
+            height: 60px;
+            width: 6px;
+            background-color: rgba(24, 20, 243, 1);
             border-radius: 0px 10px 10px 0px;
         }
     }
@@ -77,17 +92,18 @@
     font-size: 18px;
     text-align: left;
     font-weight: 500;
+    margin-left: 16px;
 }
 
-.sidebar-item .sidebar-text{
+.sidebar-item{
     font-size: 20px;
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 .sidebar-item_main {
-    padding: 1px 25px 1px 48px;
+    padding: 3px 25px 1px 44px;
     border-radius: 22px;
-    margin-bottom: 40px;
+    margin-bottom: 27px;
 }
 
 .sidebar-item_main .sidebar-text {
@@ -108,7 +124,7 @@
 .sidebar-item.last-item {
 
     .sidebar-text{
-        color: blue;
+        color: rgba(24, 20, 243, 1);
     }
 
     position: relative;
@@ -116,11 +132,11 @@
     &::before {
         content: '';
         position: absolute;
-        left: -45px;
-        top: 0;
-        height: 100%;
-        width: 5px;
-        background-color: blue;
-        border-radius: 0px 10px 10px 0px;
+        left: -46px;
+        top: -2px;
+        height: 60px;
+        width: 6px;
+        background-color: rgba(24, 20, 243, 1);
+        border-radius: 0px 13px 13px 0px;
     }
 }

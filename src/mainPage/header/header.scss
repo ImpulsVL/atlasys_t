@@ -5,7 +5,7 @@ $primary-color: rgba(245, 247, 250, 1);
     justify-content: space-between;
     align-items: center;
     background-color: rgba(255, 255, 255, 1);
-    padding: 20px 36px 20px 36px;
+    padding: 20px 40px 20px 40px;
 }
 
 .header-title {
@@ -26,13 +26,13 @@ $primary-color: rgba(245, 247, 250, 1);
     display: flex;
     background-color: $primary-color;
     align-items: center;
-    margin-right: 35px;
+    margin-right: 33px;
 }
 
 .search-icon {
     width: 20px;
     height: 20px;
-    margin-right: 20px;
+    margin-right: 16px;
     margin-left: 10px;
 }
 
@@ -65,12 +65,14 @@ $primary-color: rgba(245, 247, 250, 1);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 35px;
+    margin-right: 32px;
 }
 
 .icon {
+    position: relative;
     width: 25px;
     height: 25px;
+    right: 1px;
 }
 
 .user-photo {
